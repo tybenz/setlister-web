@@ -1,3 +1,29 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "bootstrap";
+
+main {
+  margin-top: 90px;
+}
+
+.master-list-col {
+  padding: 0;
+}
+
+.list-group {}
+
+.song {
+  .panel-body {
+    white-space: pre;
+    font-family: 'Source Code Pro', monospace;
+    line-height: 1.2em;
+
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+}

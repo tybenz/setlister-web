@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic|Source+Code+Pro:400,700);
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -4704,7 +4704,6 @@ a.list-group-item-danger.active:focus {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
   color: inherit; }
 
 .panel-title > a {
@@ -6018,3 +6017,18 @@ label {
 .panel {
   border: 1px solid #e7e7e7;
   border-width: 0 1px 4px 1px; }
+
+main {
+  margin-top: 90px; }
+
+.master-list-col {
+  padding: 0; }
+
+.song .panel-body {
+  white-space: pre;
+  font-family: 'Source Code Pro', monospace;
+  line-height: 1.2em; }
+  .song .panel-body:before {
+    display: none; }
+  .song .panel-body:after {
+    display: none; }
