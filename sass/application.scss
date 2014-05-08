@@ -6,11 +6,30 @@ main {
   margin-top: 90px;
 }
 
-.master-list-col {
-  padding: 0;
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #158cba;
+  border-color: #158cba;
+
+  a {
+    background: inherit;
+  }
 }
 
-.list-group {}
+.list-group-item {
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav .list-group-item a {
+  color: inherit;
+  text-decoration: none;
+  // padding: 0;
+}
+
 
 .song {
   .panel-body {

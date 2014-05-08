@@ -1,5 +1,5 @@
 $( function() {
-    $( 'body' ).scrollspy( { target: '.list-group' } );
+    $( 'body' ).scrollspy( { target: '.master-list-col' } );
 
     $( '.list-group' ).affix({
         offset: {
