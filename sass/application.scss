@@ -2,6 +2,11 @@
 @import "neat/neat";
 @import "bootstrap";
 
+header .container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 main {
   margin-top: 90px;
 }
@@ -79,7 +84,7 @@ main {
   }
 
   .sidebar {
-    padding: 1% 3%;
+    padding: 5% 3%;
     white-space: normal;
     background: #333;
     position: absolute;
@@ -100,6 +105,17 @@ main {
       font-family: 'Source Sans Pro', sans-serif;
       color: white;
       margin-bottom: 1em;
+    }
+
+    p.label {
+      margin-bottom: 1.5em;
+      float: left;
+      display: block;
+      @include transform(rotate(-90deg));
+      @include transform-origin(center center);
+      &:first-child {
+        margin-right: 2.1em;
+      }
     }
 
     .btn-group-vertical {
